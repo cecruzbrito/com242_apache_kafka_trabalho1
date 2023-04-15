@@ -1,0 +1,100 @@
+Sys-log: 2023-04-15T06:14:02.489782 - 3c395c15-239c-4460-ad11-0a808febd678
+Msg - {"actualTemp":298.1509801302106,"scale":"Kelvin","catchId":"9ca5babd-c48c-462b-926b-b413dfcb8173"}
+Partition - 1
+Offset - 0
+
+Sys-log: 2023-04-15T06:14:02.502679 - e4a2e4bf-5db5-46e6-86c0-660c5e571d65
+Msg - {"actualTemp":150.43654454747988,"scale":"Farenheits","catchId":"aef1e21a-cb5d-413c-a842-9b9b0d310e2e"}
+Partition - 1
+Offset - 1
+
+Sys-log: 2023-04-15T06:14:02.505480 - 4b64e1a0-7c92-4f01-b649-34f55da81d0d
+Msg - {"actualTemp":338.7980803041555,"scale":"Kelvin","catchId":"aef1e21a-cb5d-413c-a842-9b9b0d310e2e"}
+Partition - 4
+Offset - 0
+
+Sys-log: 2023-04-15T06:14:02.506686 - a70a2879-b927-473a-8fcd-9eddaabcf47e
+Msg - {"actualTemp":297.28987195876283,"scale":"Kelvin","catchId":"c84b51c1-f389-4d0f-9d7a-ff17472e93de"}
+Partition - 4
+Offset - 1
+
+Sys-log: 2023-04-15T06:14:02.507811 - 7f800d3b-8ddd-4ada-95fe-02235b6c6858
+Msg - {"actualTemp":283.6309737206135,"scale":"Kelvin","catchId":"16cd8569-b986-4e1a-85e6-8426c58dda7e"}
+Partition - 4
+Offset - 2
+
+Sys-log: 2023-04-15T06:14:02.508891 - e6d734b5-f711-4b48-a88e-0c8499b3a190
+Msg - {"actualTemp":176.20757408593812,"scale":"Farenheits","catchId":"58ed2bad-c906-4a51-af9e-425efe4479ed"}
+Partition - 4
+Offset - 3
+
+Sys-log: 2023-04-15T06:14:03.032962 - 50e55b43-b2e6-4369-a6ae-0eb83fe1b06f
+Msg - {"actualTemp":189.45595743509597,"scale":"Farenheits","catchId":"a45fc6ff-a7ce-414c-bd08-ca761980ed5d"}
+Partition - 0
+Offset - 5
+
+Sys-log: 2023-04-15T06:14:03.034412 - 7704a0ca-af59-4c68-99c6-1fb2c529318f
+Msg - {"actualTemp":61.031525375956036,"scale":"Farenheits","catchId":"7acd6bf8-a19a-4de3-9dc4-c5cca1366c73"}
+Partition - 0
+Offset - 6
+
+Sys-log: 2023-04-15T06:14:03.039243 - 5f5c862e-0da5-43bc-8c4b-06e9cc8c7a63
+Msg - {"actualTemp":332.8912179906231,"scale":"Kelvin","catchId":"e10f62c4-3279-4cf1-84f2-5458fd86b4ce"}
+Partition - 2
+Offset - 2
+
+Sys-log: 2023-04-15T06:14:03.041618 - 3b6504d3-96c9-4420-9415-ad64c80225a4
+Msg - {"actualTemp":279.7801937521178,"scale":"Kelvin","catchId":"23acc843-7cf8-4f1b-8693-01f52923748f"}
+Partition - 3
+Offset - 2
+
+Sys-log: 2023-04-15T06:14:03.043770 - aad11e02-887a-4eaf-8ebc-e59584a33045
+Msg - {"actualTemp":49.98705881636517,"scale":"Farenheits","catchId":"5403cec6-d3d9-4fb2-a3f3-80043a891487"}
+Partition - 5
+Offset - 1
+
+Sys-log: 2023-04-15T06:14:03.046167 - 1884028e-bcee-438d-818b-0d11517bacb6
+Msg - {"actualTemp":186.68704382270826,"scale":"Farenheits","catchId":"e83da134-ebff-4e9c-9f39-c2f42a129bfc"}
+Partition - 6
+Offset - 1
+
+Sys-log: 2023-04-15T06:14:03.047441 - b6063eae-2653-4883-84e4-414c56f367e5
+Msg - {"actualTemp":44.204348753812,"scale":"Farenheits","catchId":"23acc843-7cf8-4f1b-8693-01f52923748f"}
+Partition - 6
+Offset - 2
+
+Sys-log: 2023-04-15T06:14:03.050320 - 94bfa971-d36c-4573-ae88-1a21b4aa405d
+Msg - {"actualTemp":353.1153189366323,"scale":"Kelvin","catchId":"58ed2bad-c906-4a51-af9e-425efe4479ed"}
+Partition - 8
+Offset - 2
+
+Sys-log: 2023-04-15T06:14:03.051385 - 417c04c5-0f7f-4c84-b727-7c6d55fc6d59
+Msg - {"actualTemp":350.94777811058873,"scale":"Kelvin","catchId":"0263d52e-1cbf-4ad6-bb7e-efeb8efc0869"}
+Partition - 8
+Offset - 3
+
+Sys-log: 2023-04-15T06:14:03.052459 - 15594d82-72ba-41c9-a2b7-66d65ac8b9a4
+Msg - {"actualTemp":354.65819468568174,"scale":"Kelvin","catchId":"3bf7de13-ce54-45d6-8acd-a3cf2d73a998"}
+Partition - 8
+Offset - 4
+
+Sys-log: 2023-04-15T06:14:03.053478 - 2eed9ed9-18be-4b63-9a1f-948430afc081
+Msg - {"actualTemp":212.74478203597627,"scale":"Farenheits","catchId":"3942bd71-a5a0-4d4a-864b-297c72094afd"}
+Partition - 8
+Offset - 5
+
+Sys-log: 2023-04-15T06:14:03.054487 - c7258d65-877a-4660-a2d0-b6308c350679
+Msg - {"actualTemp":114.4704845465115,"scale":"Farenheits","catchId":"fab81657-af95-4ac8-8dfe-7aa1fb602d0b"}
+Partition - 8
+Offset - 6
+
+Sys-log: 2023-04-15T06:14:03.056541 - c6ebf36f-6bc0-4d79-9af9-3131811b2b6e
+Msg - {"actualTemp":300.955806193705,"scale":"Kelvin","catchId":"34f373cf-c491-420d-bab6-f9a924504ca9"}
+Partition - 9
+Offset - 4
+
+Sys-log: 2023-04-15T06:14:03.057542 - 39b9a271-2473-422c-9607-ef0e8896dc1c
+Msg - {"actualTemp":75.72176952577308,"scale":"Farenheits","catchId":"c84b51c1-f389-4d0f-9d7a-ff17472e93de"}
+Partition - 9
+Offset - 5
+
