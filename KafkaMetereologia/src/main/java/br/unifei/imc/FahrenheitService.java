@@ -35,11 +35,11 @@ public class FahrenheitService {
     }
     private void parse(ConsumerRecord<String, Temperature> record) {
         System.out.println("------------------------------------------");
-        System.out.println("Dados de temperatura recebidos:");
-        System.out.println(record.key());
-        System.out.println(record.value().getActualTemp());
-        System.out.println(record.partition());
-        System.out.println(record.offset());
+        System.out.println("Mensagem em processamento pelo serviço de Fahrenheit:");
+        System.out.println("PackageUUID - " + record.key());
+        System.out.println("Temperature provided - " + record.value().getActualTemp());
+        System.out.println("Consumed partition - " + record.partition());
+        System.out.println("Message partition offeset - " + record.offset());
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {

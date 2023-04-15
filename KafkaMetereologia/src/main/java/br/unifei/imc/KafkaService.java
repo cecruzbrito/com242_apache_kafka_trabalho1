@@ -32,7 +32,7 @@ class KafkaService<T> implements Closeable {
     }
 
     void run() {
-        long timeout = System.currentTimeMillis() + 10000; // Limit time for consume channel 10 seconds
+        long timeout = System.currentTimeMillis() + 60000; // Limit time for consume channel 10 seconds
         while(System.currentTimeMillis() < timeout) {
             var records = consumer.poll(Duration.ofMillis(100));
             if (!records.isEmpty()) {
@@ -42,6 +42,7 @@ class KafkaService<T> implements Closeable {
                 }
             }
         }
+        System.out.println("Timeout: the consumer will be logged out");
     }
 
     private Properties getProperties(Class<T> type, String groupId, Map<String, String> overideProperties) {
