@@ -12,7 +12,7 @@ import java.io.*;
 public class LogService {
     public static void main(String[] args) {
         var logService = new LogService();
-        try (var service = new KafkaService(LogService.class.getSimpleName(),
+        try (KafkaService<String> service = new KafkaService<>(LogService.class.getSimpleName(),
                 Pattern.compile("TEMPERATURE.*"), //Log needs listen all topics
                 logService::parse,
                 String.class,

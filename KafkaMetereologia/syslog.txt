@@ -1,100 +1,1100 @@
-Sys-log: 2023-04-15T06:14:02.489782 - 3c395c15-239c-4460-ad11-0a808febd678
-Msg - {"actualTemp":298.1509801302106,"scale":"Kelvin","catchId":"9ca5babd-c48c-462b-926b-b413dfcb8173"}
-Partition - 1
-Offset - 0
+Sys-log: 2023-04-15T18:16:42.125808 - 06f687a3-2885-485c-aa21-ece5a5dcb41a
+Msg - {"actualTemp":6.623525292247466,"scale":"Celsius","catchId":"06f687a3-2885-485c-aa21-ece5a5dcb41a"}
+Partition - 9
+Offset - 13
 
-Sys-log: 2023-04-15T06:14:02.502679 - e4a2e4bf-5db5-46e6-86c0-660c5e571d65
-Msg - {"actualTemp":150.43654454747988,"scale":"Farenheits","catchId":"aef1e21a-cb5d-413c-a842-9b9b0d310e2e"}
-Partition - 1
-Offset - 1
+Sys-log: 2023-04-15T18:16:42.139951 - ee15aa71-add7-461d-8777-8f027951e4b3
+Msg - {"actualTemp":11.613880454528047,"scale":"Celsius","catchId":"ee15aa71-add7-461d-8777-8f027951e4b3"}
+Partition - 9
+Offset - 14
 
-Sys-log: 2023-04-15T06:14:02.505480 - 4b64e1a0-7c92-4f01-b649-34f55da81d0d
-Msg - {"actualTemp":338.7980803041555,"scale":"Kelvin","catchId":"aef1e21a-cb5d-413c-a842-9b9b0d310e2e"}
-Partition - 4
-Offset - 0
+Sys-log: 2023-04-15T18:16:42.140888 - dba627b1-5860-4c97-ab45-8f322e514e79
+Msg - {"actualTemp":73.71452621739981,"scale":"Celsius","catchId":"dba627b1-5860-4c97-ab45-8f322e514e79"}
+Partition - 9
+Offset - 15
 
-Sys-log: 2023-04-15T06:14:02.506686 - a70a2879-b927-473a-8fcd-9eddaabcf47e
-Msg - {"actualTemp":297.28987195876283,"scale":"Kelvin","catchId":"c84b51c1-f389-4d0f-9d7a-ff17472e93de"}
-Partition - 4
-Offset - 1
+Sys-log: 2023-04-15T18:16:42.141881 - 32ce665d-c1bd-441c-b8e2-0597e1fc47b6
+Msg - {"actualTemp":56.96102388712983,"scale":"Celsius","catchId":"32ce665d-c1bd-441c-b8e2-0597e1fc47b6"}
+Partition - 9
+Offset - 16
 
-Sys-log: 2023-04-15T06:14:02.507811 - 7f800d3b-8ddd-4ada-95fe-02235b6c6858
-Msg - {"actualTemp":283.6309737206135,"scale":"Kelvin","catchId":"16cd8569-b986-4e1a-85e6-8426c58dda7e"}
-Partition - 4
-Offset - 2
+Sys-log: 2023-04-15T18:16:42.142778 - f3cc595f-1212-40f7-a5ce-77b404397abe
+Msg - {"actualTemp":82.43750978367044,"scale":"Celsius","catchId":"f3cc595f-1212-40f7-a5ce-77b404397abe"}
+Partition - 9
+Offset - 17
 
-Sys-log: 2023-04-15T06:14:02.508891 - e6d734b5-f711-4b48-a88e-0c8499b3a190
-Msg - {"actualTemp":176.20757408593812,"scale":"Farenheits","catchId":"58ed2bad-c906-4a51-af9e-425efe4479ed"}
-Partition - 4
-Offset - 3
+Sys-log: 2023-04-15T18:16:42.143722 - b352bb68-c8f9-4237-9709-ef6923ea5ead
+Msg - {"actualTemp":88.24127748176221,"scale":"Celsius","catchId":"b352bb68-c8f9-4237-9709-ef6923ea5ead"}
+Partition - 9
+Offset - 18
 
-Sys-log: 2023-04-15T06:14:03.032962 - 50e55b43-b2e6-4369-a6ae-0eb83fe1b06f
-Msg - {"actualTemp":189.45595743509597,"scale":"Farenheits","catchId":"a45fc6ff-a7ce-414c-bd08-ca761980ed5d"}
-Partition - 0
-Offset - 5
+Sys-log: 2023-04-15T18:16:42.144575 - 609de8cd-cf65-4bba-b296-09fa790c10e9
+Msg - {"actualTemp":60.39475502394276,"scale":"Celsius","catchId":"609de8cd-cf65-4bba-b296-09fa790c10e9"}
+Partition - 9
+Offset - 19
 
-Sys-log: 2023-04-15T06:14:03.034412 - 7704a0ca-af59-4c68-99c6-1fb2c529318f
-Msg - {"actualTemp":61.031525375956036,"scale":"Farenheits","catchId":"7acd6bf8-a19a-4de3-9dc4-c5cca1366c73"}
-Partition - 0
-Offset - 6
+Sys-log: 2023-04-15T18:16:42.145423 - cbd38b29-1fee-4b94-8c7d-a71b23f064eb
+Msg - {"actualTemp":80.52942369574762,"scale":"Celsius","catchId":"cbd38b29-1fee-4b94-8c7d-a71b23f064eb"}
+Partition - 9
+Offset - 20
 
-Sys-log: 2023-04-15T06:14:03.039243 - 5f5c862e-0da5-43bc-8c4b-06e9cc8c7a63
-Msg - {"actualTemp":332.8912179906231,"scale":"Kelvin","catchId":"e10f62c4-3279-4cf1-84f2-5458fd86b4ce"}
-Partition - 2
-Offset - 2
+Sys-log: 2023-04-15T18:16:42.146194 - b20d6ed0-a6eb-47a8-b5ea-eff77ed62ea5
+Msg - {"actualTemp":68.31424400446731,"scale":"Celsius","catchId":"b20d6ed0-a6eb-47a8-b5ea-eff77ed62ea5"}
+Partition - 9
+Offset - 21
 
-Sys-log: 2023-04-15T06:14:03.041618 - 3b6504d3-96c9-4420-9415-ad64c80225a4
-Msg - {"actualTemp":279.7801937521178,"scale":"Kelvin","catchId":"23acc843-7cf8-4f1b-8693-01f52923748f"}
-Partition - 3
-Offset - 2
+Sys-log: 2023-04-15T18:16:42.149042 - d98c7d3a-924d-4bd7-b80a-c5273898905b
+Msg - {"actualTemp":71.14644888848474,"scale":"Celsius","catchId":"d98c7d3a-924d-4bd7-b80a-c5273898905b"}
+Partition - 8
+Offset - 10
 
-Sys-log: 2023-04-15T06:14:03.043770 - aad11e02-887a-4eaf-8ebc-e59584a33045
-Msg - {"actualTemp":49.98705881636517,"scale":"Farenheits","catchId":"5403cec6-d3d9-4fb2-a3f3-80043a891487"}
+Sys-log: 2023-04-15T18:16:42.149881 - c68402ae-e855-40ed-8cd2-a6e6044721b1
+Msg - {"actualTemp":80.45335842026739,"scale":"Celsius","catchId":"c68402ae-e855-40ed-8cd2-a6e6044721b1"}
+Partition - 8
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.150597 - fd6957f4-fb12-460a-8511-8d115e591d59
+Msg - {"actualTemp":67.86960791735478,"scale":"Celsius","catchId":"fd6957f4-fb12-460a-8511-8d115e591d59"}
+Partition - 8
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.151435 - 82c57aac-4fa5-40a1-a60c-93d1b705fe61
+Msg - {"actualTemp":8.853953076671827,"scale":"Celsius","catchId":"82c57aac-4fa5-40a1-a60c-93d1b705fe61"}
+Partition - 8
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.152187 - fed00951-8f5a-4ff3-b53f-8dda25028672
+Msg - {"actualTemp":34.96972839103469,"scale":"Celsius","catchId":"fed00951-8f5a-4ff3-b53f-8dda25028672"}
+Partition - 8
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.153115 - 7683a4ff-d442-4992-a491-47e70e11f2a2
+Msg - {"actualTemp":56.71243946735339,"scale":"Celsius","catchId":"7683a4ff-d442-4992-a491-47e70e11f2a2"}
+Partition - 8
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.153924 - f2490aac-3568-41c0-ac62-3dece2e8e2a5
+Msg - {"actualTemp":19.285756732739276,"scale":"Celsius","catchId":"f2490aac-3568-41c0-ac62-3dece2e8e2a5"}
+Partition - 8
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.155646 - 32867afc-b685-440e-91b9-7f4e0bfd7929
+Msg - {"actualTemp":67.77676011040676,"scale":"Celsius","catchId":"32867afc-b685-440e-91b9-7f4e0bfd7929"}
 Partition - 5
-Offset - 1
+Offset - 8
 
-Sys-log: 2023-04-15T06:14:03.046167 - 1884028e-bcee-438d-818b-0d11517bacb6
-Msg - {"actualTemp":186.68704382270826,"scale":"Farenheits","catchId":"e83da134-ebff-4e9c-9f39-c2f42a129bfc"}
-Partition - 6
-Offset - 1
+Sys-log: 2023-04-15T18:16:42.156483 - 868539d8-8257-48b0-a9fb-26405e4ff02c
+Msg - {"actualTemp":65.50519955039245,"scale":"Celsius","catchId":"868539d8-8257-48b0-a9fb-26405e4ff02c"}
+Partition - 5
+Offset - 9
 
-Sys-log: 2023-04-15T06:14:03.047441 - b6063eae-2653-4883-84e4-414c56f367e5
-Msg - {"actualTemp":44.204348753812,"scale":"Farenheits","catchId":"23acc843-7cf8-4f1b-8693-01f52923748f"}
+Sys-log: 2023-04-15T18:16:42.157212 - be3f20da-9ff8-4778-b112-a3fcab13d2c7
+Msg - {"actualTemp":59.747970839356235,"scale":"Celsius","catchId":"be3f20da-9ff8-4778-b112-a3fcab13d2c7"}
+Partition - 5
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.157933 - dcede7f9-1ae8-4b09-84cf-f01f86d36d8f
+Msg - {"actualTemp":11.26142838605134,"scale":"Celsius","catchId":"dcede7f9-1ae8-4b09-84cf-f01f86d36d8f"}
+Partition - 5
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.158886 - f1ccfbba-2d6f-4edd-b7e5-b7324b1f8286
+Msg - {"actualTemp":59.82924903636909,"scale":"Celsius","catchId":"f1ccfbba-2d6f-4edd-b7e5-b7324b1f8286"}
+Partition - 5
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.159603 - 8a808979-baf6-4c0b-b6ca-07ef338290c8
+Msg - {"actualTemp":49.68210432987679,"scale":"Celsius","catchId":"8a808979-baf6-4c0b-b6ca-07ef338290c8"}
+Partition - 5
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.160289 - 72272bf1-cc11-4c88-a171-194d4d668490
+Msg - {"actualTemp":17.768882133222895,"scale":"Celsius","catchId":"72272bf1-cc11-4c88-a171-194d4d668490"}
+Partition - 5
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.160963 - bd7a2fe2-ecb4-4cd1-9b8b-b9290092b4f8
+Msg - {"actualTemp":61.867465313676036,"scale":"Celsius","catchId":"bd7a2fe2-ecb4-4cd1-9b8b-b9290092b4f8"}
+Partition - 5
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.161589 - ef1f14a1-b045-4b34-ba2b-609ebb639a7b
+Msg - {"actualTemp":86.76236909151433,"scale":"Celsius","catchId":"ef1f14a1-b045-4b34-ba2b-609ebb639a7b"}
+Partition - 5
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.162206 - cd4f7380-d8df-41c9-a5c5-57dde8a85867
+Msg - {"actualTemp":67.90864536541902,"scale":"Celsius","catchId":"cd4f7380-d8df-41c9-a5c5-57dde8a85867"}
+Partition - 5
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.162785 - a311a4ae-c3a7-4530-bf6b-243a0dd309c0
+Msg - {"actualTemp":58.832586452310174,"scale":"Celsius","catchId":"a311a4ae-c3a7-4530-bf6b-243a0dd309c0"}
+Partition - 5
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.163360 - e279705d-9f31-4923-999e-1d3f22b7f43c
+Msg - {"actualTemp":44.0107298612601,"scale":"Celsius","catchId":"e279705d-9f31-4923-999e-1d3f22b7f43c"}
+Partition - 5
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.164593 - 96bbff70-c01c-4499-9bc9-fe257b506734
+Msg - {"actualTemp":9.459505997537931,"scale":"Celsius","catchId":"96bbff70-c01c-4499-9bc9-fe257b506734"}
+Partition - 4
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.165207 - 743ed541-7227-40dd-abc9-de47cbaab4c0
+Msg - {"actualTemp":81.71999584163059,"scale":"Celsius","catchId":"743ed541-7227-40dd-abc9-de47cbaab4c0"}
+Partition - 4
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.165788 - bb0d3eca-b84a-4b39-9e24-d480ffff807f
+Msg - {"actualTemp":78.13407111226934,"scale":"Celsius","catchId":"bb0d3eca-b84a-4b39-9e24-d480ffff807f"}
+Partition - 4
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.166425 - a1be3218-5ae9-4dfb-8f16-9e248db491f3
+Msg - {"actualTemp":34.79682170570203,"scale":"Celsius","catchId":"a1be3218-5ae9-4dfb-8f16-9e248db491f3"}
+Partition - 4
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.166973 - 671ad81a-7546-4508-919f-0bd2f9a94b65
+Msg - {"actualTemp":30.247098816479166,"scale":"Celsius","catchId":"671ad81a-7546-4508-919f-0bd2f9a94b65"}
+Partition - 4
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.167631 - f4a97549-ee79-4220-80a3-6ceea8506c9b
+Msg - {"actualTemp":7.118010267996521,"scale":"Celsius","catchId":"f4a97549-ee79-4220-80a3-6ceea8506c9b"}
+Partition - 4
+Offset - 21
+
+Sys-log: 2023-04-15T18:16:42.168312 - 9b69ee63-af97-4f9f-9c5f-f27538bebdbf
+Msg - {"actualTemp":36.34768747861548,"scale":"Celsius","catchId":"9b69ee63-af97-4f9f-9c5f-f27538bebdbf"}
+Partition - 4
+Offset - 22
+
+Sys-log: 2023-04-15T18:16:42.168893 - 50175bf6-6937-4635-adcc-c594bd9df3d6
+Msg - {"actualTemp":41.31302465733416,"scale":"Celsius","catchId":"50175bf6-6937-4635-adcc-c594bd9df3d6"}
+Partition - 4
+Offset - 23
+
+Sys-log: 2023-04-15T18:16:42.169522 - 0b355ba0-b225-4fb1-b615-25f7376d8783
+Msg - {"actualTemp":61.43690757566229,"scale":"Celsius","catchId":"0b355ba0-b225-4fb1-b615-25f7376d8783"}
+Partition - 4
+Offset - 24
+
+Sys-log: 2023-04-15T18:16:42.170369 - 681f0002-f358-40fa-b708-fc6aa8bcbf71
+Msg - {"actualTemp":13.348988767481384,"scale":"Celsius","catchId":"681f0002-f358-40fa-b708-fc6aa8bcbf71"}
+Partition - 4
+Offset - 25
+
+Sys-log: 2023-04-15T18:16:42.171789 - 4d0980d2-436b-43af-ba72-9d11c75d3dfb
+Msg - {"actualTemp":33.416489586445095,"scale":"Celsius","catchId":"4d0980d2-436b-43af-ba72-9d11c75d3dfb"}
+Partition - 7
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.172676 - 2ed0cb23-e18b-4829-ab85-ac26e484af27
+Msg - {"actualTemp":36.29440348666705,"scale":"Celsius","catchId":"2ed0cb23-e18b-4829-ab85-ac26e484af27"}
+Partition - 7
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.173305 - 5e88a204-1a03-4dfa-8fa2-4ca852122757
+Msg - {"actualTemp":80.02746473921754,"scale":"Celsius","catchId":"5e88a204-1a03-4dfa-8fa2-4ca852122757"}
+Partition - 7
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.173820 - 23339a6b-fc53-423a-be4b-1954f0b8cad5
+Msg - {"actualTemp":7.145630325955231,"scale":"Celsius","catchId":"23339a6b-fc53-423a-be4b-1954f0b8cad5"}
+Partition - 7
+Offset - 21
+
+Sys-log: 2023-04-15T18:16:42.174370 - 1b66c75e-dee6-40ea-8e6b-a8d7cead07a3
+Msg - {"actualTemp":63.97876532206118,"scale":"Celsius","catchId":"1b66c75e-dee6-40ea-8e6b-a8d7cead07a3"}
+Partition - 7
+Offset - 22
+
+Sys-log: 2023-04-15T18:16:42.174962 - 7f193a5e-eca5-49d1-8f62-9c864695098e
+Msg - {"actualTemp":24.416638074850972,"scale":"Celsius","catchId":"7f193a5e-eca5-49d1-8f62-9c864695098e"}
+Partition - 7
+Offset - 23
+
+Sys-log: 2023-04-15T18:16:42.175479 - 73c52070-a51e-4d9a-8515-e4b96ef00bb4
+Msg - {"actualTemp":11.704481607754579,"scale":"Celsius","catchId":"73c52070-a51e-4d9a-8515-e4b96ef00bb4"}
+Partition - 7
+Offset - 24
+
+Sys-log: 2023-04-15T18:16:42.176019 - af61b562-0eda-44ed-b952-6d9ea762118a
+Msg - {"actualTemp":1.9945353736665163,"scale":"Celsius","catchId":"af61b562-0eda-44ed-b952-6d9ea762118a"}
+Partition - 7
+Offset - 25
+
+Sys-log: 2023-04-15T18:16:42.177363 - 8e0e3509-10c0-43eb-886e-2b4fa87223c0
+Msg - {"actualTemp":28.68449734246411,"scale":"Celsius","catchId":"8e0e3509-10c0-43eb-886e-2b4fa87223c0"}
 Partition - 6
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.177901 - 9d546a72-54f9-4f77-87f9-02a51a88e0e6
+Msg - {"actualTemp":45.6557668221424,"scale":"Celsius","catchId":"9d546a72-54f9-4f77-87f9-02a51a88e0e6"}
+Partition - 6
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.178402 - 4fa397b6-cec1-4358-91ac-00ca29d067c1
+Msg - {"actualTemp":60.20200769857548,"scale":"Celsius","catchId":"4fa397b6-cec1-4358-91ac-00ca29d067c1"}
+Partition - 6
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.178920 - 55efcc6f-dd22-4e7e-a47a-0a06bd37f2a9
+Msg - {"actualTemp":34.6953396935964,"scale":"Celsius","catchId":"55efcc6f-dd22-4e7e-a47a-0a06bd37f2a9"}
+Partition - 6
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.180054 - 3b105a29-fa37-4b2d-a765-fffc0e1c5829
+Msg - {"actualTemp":99.37843546729694,"scale":"Celsius","catchId":"3b105a29-fa37-4b2d-a765-fffc0e1c5829"}
+Partition - 1
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.180657 - 7f3721c7-bf39-495a-8079-3f21ae522629
+Msg - {"actualTemp":38.05368080715083,"scale":"Celsius","catchId":"7f3721c7-bf39-495a-8079-3f21ae522629"}
+Partition - 1
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.181198 - bf01099d-bd73-450c-b7ba-587c10ba4387
+Msg - {"actualTemp":97.68229539439406,"scale":"Celsius","catchId":"bf01099d-bd73-450c-b7ba-587c10ba4387"}
+Partition - 1
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.181840 - 9db74099-7b95-45e9-8ffd-7b91e3b6a849
+Msg - {"actualTemp":73.01102176631593,"scale":"Celsius","catchId":"9db74099-7b95-45e9-8ffd-7b91e3b6a849"}
+Partition - 1
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.182405 - 9cefa45c-42d8-4f2b-b5f9-e3aac653f2eb
+Msg - {"actualTemp":70.29314395477894,"scale":"Celsius","catchId":"9cefa45c-42d8-4f2b-b5f9-e3aac653f2eb"}
+Partition - 1
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.182976 - 750814d4-638d-4caa-81f4-9a1010568143
+Msg - {"actualTemp":13.614157885297717,"scale":"Celsius","catchId":"750814d4-638d-4caa-81f4-9a1010568143"}
+Partition - 1
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.183499 - 58840d7c-28ff-43e0-817a-446876bccd9e
+Msg - {"actualTemp":92.92275368737997,"scale":"Celsius","catchId":"58840d7c-28ff-43e0-817a-446876bccd9e"}
+Partition - 1
+Offset - 21
+
+Sys-log: 2023-04-15T18:16:42.184 - af3dd497-74bb-449f-abf5-4917ab10cf5e
+Msg - {"actualTemp":72.0931781791481,"scale":"Celsius","catchId":"af3dd497-74bb-449f-abf5-4917ab10cf5e"}
+Partition - 1
+Offset - 22
+
+Sys-log: 2023-04-15T18:16:42.184520 - a3d6ea16-61f7-4da2-81a5-c7e3275da8b7
+Msg - {"actualTemp":98.02512725248454,"scale":"Celsius","catchId":"a3d6ea16-61f7-4da2-81a5-c7e3275da8b7"}
+Partition - 1
+Offset - 23
+
+Sys-log: 2023-04-15T18:16:42.185007 - 8d3242de-6ec8-4b46-abcd-6bc819c1e305
+Msg - {"actualTemp":87.61035622363596,"scale":"Celsius","catchId":"8d3242de-6ec8-4b46-abcd-6bc819c1e305"}
+Partition - 1
+Offset - 24
+
+Sys-log: 2023-04-15T18:16:42.186414 - 6c887ee3-4ad8-48e1-ac7c-8147c23641c3
+Msg - {"actualTemp":24.0828238885428,"scale":"Celsius","catchId":"6c887ee3-4ad8-48e1-ac7c-8147c23641c3"}
+Partition - 0
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.186960 - 031e7d05-d8e1-4ca5-8966-afbd9515912a
+Msg - {"actualTemp":39.48666386644409,"scale":"Celsius","catchId":"031e7d05-d8e1-4ca5-8966-afbd9515912a"}
+Partition - 0
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.187439 - 361113f3-57ba-40e7-8549-15a88f1723f3
+Msg - {"actualTemp":25.537135523235154,"scale":"Celsius","catchId":"361113f3-57ba-40e7-8549-15a88f1723f3"}
+Partition - 0
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.187987 - 433d86e5-eca1-4d8f-9ee5-68c02ebd0d87
+Msg - {"actualTemp":97.42554792922617,"scale":"Celsius","catchId":"433d86e5-eca1-4d8f-9ee5-68c02ebd0d87"}
+Partition - 0
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.188509 - 5997004d-390a-4b01-9922-90bba4143765
+Msg - {"actualTemp":61.54113067527195,"scale":"Celsius","catchId":"5997004d-390a-4b01-9922-90bba4143765"}
+Partition - 0
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.189027 - ca1fd65f-a8a5-4a46-80d9-84c818b62d29
+Msg - {"actualTemp":41.0445287322137,"scale":"Celsius","catchId":"ca1fd65f-a8a5-4a46-80d9-84c818b62d29"}
+Partition - 0
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.189594 - 4924e0bd-e039-4e3e-95c0-98d2054e1f9d
+Msg - {"actualTemp":33.06597243891072,"scale":"Celsius","catchId":"4924e0bd-e039-4e3e-95c0-98d2054e1f9d"}
+Partition - 0
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.190128 - 97d782cf-16a4-4d8b-8787-23bfb20ca56d
+Msg - {"actualTemp":95.69225616075653,"scale":"Celsius","catchId":"97d782cf-16a4-4d8b-8787-23bfb20ca56d"}
+Partition - 0
+Offset - 21
+
+Sys-log: 2023-04-15T18:16:42.190611 - 39d8ba76-4bc9-4c80-b869-48bce5ec7671
+Msg - {"actualTemp":49.892699327344125,"scale":"Celsius","catchId":"39d8ba76-4bc9-4c80-b869-48bce5ec7671"}
+Partition - 0
+Offset - 22
+
+Sys-log: 2023-04-15T18:16:42.191135 - 71e7e233-fa16-4ba9-b3e7-4fc503ed30ab
+Msg - {"actualTemp":63.93124471419741,"scale":"Celsius","catchId":"71e7e233-fa16-4ba9-b3e7-4fc503ed30ab"}
+Partition - 0
+Offset - 23
+
+Sys-log: 2023-04-15T18:16:42.191646 - aabefd74-03d5-425e-ab5d-e7eb061475aa
+Msg - {"actualTemp":62.8339161044715,"scale":"Celsius","catchId":"aabefd74-03d5-425e-ab5d-e7eb061475aa"}
+Partition - 0
+Offset - 24
+
+Sys-log: 2023-04-15T18:16:42.192141 - 489e5de4-b826-4416-a529-ecc0053e05fc
+Msg - {"actualTemp":90.60756340234265,"scale":"Celsius","catchId":"489e5de4-b826-4416-a529-ecc0053e05fc"}
+Partition - 0
+Offset - 25
+
+Sys-log: 2023-04-15T18:16:42.192678 - ec2dff54-4268-470e-b54c-6dd5bdff85f1
+Msg - {"actualTemp":63.85945125740221,"scale":"Celsius","catchId":"ec2dff54-4268-470e-b54c-6dd5bdff85f1"}
+Partition - 0
+Offset - 26
+
+Sys-log: 2023-04-15T18:16:42.193132 - 3c3a0b0d-3a68-41f8-8ff3-c0436717bef5
+Msg - {"actualTemp":38.99546203591512,"scale":"Celsius","catchId":"3c3a0b0d-3a68-41f8-8ff3-c0436717bef5"}
+Partition - 0
+Offset - 27
+
+Sys-log: 2023-04-15T18:16:42.193654 - ecb7ed30-f8db-43ab-a799-2e4654b44f83
+Msg - {"actualTemp":35.22670823236844,"scale":"Celsius","catchId":"ecb7ed30-f8db-43ab-a799-2e4654b44f83"}
+Partition - 0
+Offset - 28
+
+Sys-log: 2023-04-15T18:16:42.194779 - 70a309a2-d81f-4a8d-9f8d-b75ac48a6314
+Msg - {"actualTemp":97.08595373796257,"scale":"Celsius","catchId":"70a309a2-d81f-4a8d-9f8d-b75ac48a6314"}
+Partition - 3
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.195297 - a86a0910-2401-4fc0-a461-93a4f435f2f2
+Msg - {"actualTemp":21.662780121040537,"scale":"Celsius","catchId":"a86a0910-2401-4fc0-a461-93a4f435f2f2"}
+Partition - 3
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.195780 - 193ac2f6-48fb-4d01-ae1d-6770f279a382
+Msg - {"actualTemp":26.186389009269494,"scale":"Celsius","catchId":"193ac2f6-48fb-4d01-ae1d-6770f279a382"}
+Partition - 3
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.196346 - 820c4c79-b83d-4953-9089-4041a75e75de
+Msg - {"actualTemp":26.311593552938692,"scale":"Celsius","catchId":"820c4c79-b83d-4953-9089-4041a75e75de"}
+Partition - 3
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.197069 - bdaad195-47ef-474e-a952-2aaa3ff02bf0
+Msg - {"actualTemp":7.949963668105452,"scale":"Celsius","catchId":"bdaad195-47ef-474e-a952-2aaa3ff02bf0"}
+Partition - 3
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.198360 - 2a97ebda-84af-4993-9f95-48dc24b6e155
+Msg - {"actualTemp":62.45348679923561,"scale":"Celsius","catchId":"2a97ebda-84af-4993-9f95-48dc24b6e155"}
+Partition - 2
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.198938 - 9262452d-9142-4f90-bfc1-0cf4949542c4
+Msg - {"actualTemp":19.061392579686096,"scale":"Celsius","catchId":"9262452d-9142-4f90-bfc1-0cf4949542c4"}
+Partition - 2
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.199495 - fc54a13d-1676-46fe-b56b-3f0213b50473
+Msg - {"actualTemp":83.79456510471435,"scale":"Celsius","catchId":"fc54a13d-1676-46fe-b56b-3f0213b50473"}
+Partition - 2
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.199975 - f849b7ca-a537-46ab-b074-e2ea66267825
+Msg - {"actualTemp":25.740400577694455,"scale":"Celsius","catchId":"f849b7ca-a537-46ab-b074-e2ea66267825"}
+Partition - 2
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.200432 - fb01f3c3-2a90-41c9-8db2-7eb0255a1305
+Msg - {"actualTemp":59.71843832441268,"scale":"Celsius","catchId":"fb01f3c3-2a90-41c9-8db2-7eb0255a1305"}
+Partition - 2
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.201418 - 2babf19d-789a-47c2-9372-6727f9357cf7
+Msg - {"actualTemp":312.4866638664441,"scale":"Kelvin","catchId":"031e7d05-d8e1-4ca5-8966-afbd9515912a"}
+Partition - 0
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.201914 - 272d0b4f-da97-4712-85f3-d5d5a1ee91af
+Msg - {"actualTemp":370.68229539439403,"scale":"Kelvin","catchId":"bf01099d-bd73-450c-b7ba-587c10ba4387"}
+Partition - 0
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.202427 - 1ed28330-4407-48eb-83f8-08e32d73681c
+Msg - {"actualTemp":343.29314395477894,"scale":"Kelvin","catchId":"9cefa45c-42d8-4f2b-b5f9-e3aac653f2eb"}
+Partition - 0
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.202868 - ea715442-8bad-4cf1-9e31-74e132bd4f4c
+Msg - {"actualTemp":306.0659724389107,"scale":"Kelvin","catchId":"4924e0bd-e039-4e3e-95c0-98d2054e1f9d"}
+Partition - 0
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.203340 - 68e28f06-6edc-4ab5-a0d4-5de411493cb1
+Msg - {"actualTemp":336.9787653220612,"scale":"Kelvin","catchId":"1b66c75e-dee6-40ea-8e6b-a8d7cead07a3"}
+Partition - 0
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.203799 - 94b52493-c6ea-4faf-8e89-2fc41a85c31a
+Msg - {"actualTemp":284.7044816077546,"scale":"Kelvin","catchId":"73c52070-a51e-4d9a-8515-e4b96ef00bb4"}
+Partition - 0
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.204226 - a9d209dd-5e58-431f-8742-a212e9377189
+Msg - {"actualTemp":292.2857567327393,"scale":"Kelvin","catchId":"f2490aac-3568-41c0-ac62-3dece2e8e2a5"}
+Partition - 0
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.204678 - 19f9997c-46be-403d-bb5f-8b9fe2b33c4b
+Msg - {"actualTemp":140.71055904309696,"scale":"Farenheits","catchId":"609de8cd-cf65-4bba-b296-09fa790c10e9"}
+Partition - 0
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.205175 - 27fd2fa1-dc0a-4842-ab79-2846bb912a82
+Msg - {"actualTemp":176.95296265234572,"scale":"Farenheits","catchId":"cbd38b29-1fee-4b94-8c7d-a71b23f064eb"}
+Partition - 0
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.205633 - adc07e0e-b9f5-4517-bffe-8210bdc2424d
+Msg - {"actualTemp":139.54634751084123,"scale":"Farenheits","catchId":"be3f20da-9ff8-4778-b112-a3fcab13d2c7"}
+Partition - 0
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.206102 - f303a25b-ae03-4e2d-bd04-6276fdab4338
+Msg - {"actualTemp":137.89865561415832,"scale":"Farenheits","catchId":"a311a4ae-c3a7-4530-bf6b-243a0dd309c0"}
+Partition - 0
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.206529 - d85e2817-e860-4c76-9d83-8fe1a4bb103b
+Msg - {"actualTemp":97.42583746150785,"scale":"Farenheits","catchId":"9b69ee63-af97-4f9f-9c5f-f27538bebdbf"}
+Partition - 0
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.207131 - c9bf8c5d-fc36-41d9-993b-f4d58a39d1a6
+Msg - {"actualTemp":195.33762691101512,"scale":"Farenheits","catchId":"b0ab9f0c-9a60-40aa-b46b-257dc79c677f"}
+Partition - 0
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.208514 - 19165759-2f36-4f2b-af9e-7b7c0ce301ee
+Msg - {"actualTemp":294.66278012104056,"scale":"Kelvin","catchId":"a86a0910-2401-4fc0-a461-93a4f435f2f2"}
+Partition - 1
 Offset - 2
 
-Sys-log: 2023-04-15T06:14:03.050320 - 94bfa971-d36c-4573-ae88-1a21b4aa405d
-Msg - {"actualTemp":353.1153189366323,"scale":"Kelvin","catchId":"58ed2bad-c906-4a51-af9e-425efe4479ed"}
-Partition - 8
-Offset - 2
-
-Sys-log: 2023-04-15T06:14:03.051385 - 417c04c5-0f7f-4c84-b727-7c6d55fc6d59
-Msg - {"actualTemp":350.94777811058873,"scale":"Kelvin","catchId":"0263d52e-1cbf-4ad6-bb7e-efeb8efc0869"}
-Partition - 8
+Sys-log: 2023-04-15T18:16:42.209086 - b1a01b9d-130b-4490-b2d0-aec7bbe34060
+Msg - {"actualTemp":298.5371355232352,"scale":"Kelvin","catchId":"361113f3-57ba-40e7-8549-15a88f1723f3"}
+Partition - 1
 Offset - 3
 
-Sys-log: 2023-04-15T06:14:03.052459 - 15594d82-72ba-41c9-a2b7-66d65ac8b9a4
-Msg - {"actualTemp":354.65819468568174,"scale":"Kelvin","catchId":"3bf7de13-ce54-45d6-8acd-a3cf2d73a998"}
-Partition - 8
+Sys-log: 2023-04-15T18:16:42.209800 - c56a8950-ed37-452c-8b2a-e5880076c0c6
+Msg - {"actualTemp":346.01102176631593,"scale":"Kelvin","catchId":"9db74099-7b95-45e9-8ffd-7b91e3b6a849"}
+Partition - 1
 Offset - 4
 
-Sys-log: 2023-04-15T06:14:03.053478 - 2eed9ed9-18be-4b63-9a1f-948430afc081
-Msg - {"actualTemp":212.74478203597627,"scale":"Farenheits","catchId":"3942bd71-a5a0-4d4a-864b-297c72094afd"}
-Partition - 8
+Sys-log: 2023-04-15T18:16:42.210314 - 1f6f3c6f-ad4d-4e7c-b53d-7db0feb12192
+Msg - {"actualTemp":281.8539530766718,"scale":"Kelvin","catchId":"82c57aac-4fa5-40a1-a60c-93d1b705fe61"}
+Partition - 1
 Offset - 5
 
-Sys-log: 2023-04-15T06:14:03.054487 - c7258d65-877a-4660-a2d0-b6308c350679
-Msg - {"actualTemp":114.4704845465115,"scale":"Farenheits","catchId":"fab81657-af95-4ac8-8dfe-7aa1fb602d0b"}
-Partition - 8
+Sys-log: 2023-04-15T18:16:42.210752 - e47696b6-1eef-443e-a08c-ffdfcc86d2ca
+Msg - {"actualTemp":274.9945353736665,"scale":"Kelvin","catchId":"af61b562-0eda-44ed-b952-6d9ea762118a"}
+Partition - 1
 Offset - 6
 
-Sys-log: 2023-04-15T06:14:03.056541 - c6ebf36f-6bc0-4d79-9af9-3131811b2b6e
-Msg - {"actualTemp":300.955806193705,"scale":"Kelvin","catchId":"34f373cf-c491-420d-bab6-f9a924504ca9"}
-Partition - 9
+Sys-log: 2023-04-15T18:16:42.211224 - 3779ba65-f2a9-4d6f-9145-83458612446d
+Msg - {"actualTemp":336.8594512574022,"scale":"Kelvin","catchId":"ec2dff54-4268-470e-b54c-6dd5bdff85f1"}
+Partition - 1
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.211690 - 24c25970-bb85-4dca-be33-8673edf0425b
+Msg - {"actualTemp":317.0107298612601,"scale":"Kelvin","catchId":"e279705d-9f31-4923-999e-1d3f22b7f43c"}
+Partition - 1
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.212235 - 132c7b6c-63f4-4408-8706-72ec86a362f4
+Msg - {"actualTemp":360.61035622363596,"scale":"Kelvin","catchId":"8d3242de-6ec8-4b46-abcd-6bc819c1e305"}
+Partition - 1
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.212709 - aa0c7daf-6074-4eaa-849e-f910402b2a8b
+Msg - {"actualTemp":134.52984299683368,"scale":"Farenheits","catchId":"32ce665d-c1bd-441c-b8e2-0597e1fc47b6"}
+Partition - 1
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.213375 - 4df83116-103d-4933-bb3d-daab7aaa4beb
+Msg - {"actualTemp":47.93711553800929,"scale":"Farenheits","catchId":"82c57aac-4fa5-40a1-a60c-93d1b705fe61"}
+Partition - 1
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.214099 - fb5cdc0a-646a-4e11-ab20-c49591f3dabb
+Msg - {"actualTemp":153.99816819873217,"scale":"Farenheits","catchId":"32867afc-b685-440e-91b9-7f4e0bfd7929"}
+Partition - 1
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.214849 - 7df6fbc9-d228-49f3-b344-3c439dd0d72e
+Msg - {"actualTemp":44.81241848239374,"scale":"Farenheits","catchId":"f4a97549-ee79-4220-80a3-6ceea8506c9b"}
+Partition - 1
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.215515 - 416ed293-9d31-4a93-a548-10c4566d7781
+Msg - {"actualTemp":106.3634443832015,"scale":"Farenheits","catchId":"50175bf6-6937-4635-adcc-c594bd9df3d6"}
+Partition - 1
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.216012 - bed70583-22f0-4019-b63e-35ca90c14902
+Msg - {"actualTemp":135.5056284419805,"scale":"Farenheits","catchId":"1ed5c04f-cd13-49ef-a5da-3aa1dd822f5a"}
+Partition - 1
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.216451 - 9a26f19c-60db-404a-8344-e343eac11547
+Msg - {"actualTemp":75.94994853473176,"scale":"Farenheits","catchId":"7f193a5e-eca5-49d1-8f62-9c864695098e"}
+Partition - 1
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.216877 - 900e2bb8-0e7a-4e9d-8a01-e49aa12e3c27
+Msg - {"actualTemp":56.79121837458897,"scale":"Farenheits","catchId":"17c33dd0-fbd3-4ea3-8c07-129f06e4a495"}
+Partition - 1
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.217888 - 58540315-a7a0-4a16-b928-1fe673a9c834
+Msg - {"actualTemp":311.05368080715084,"scale":"Kelvin","catchId":"7f3721c7-bf39-495a-8079-3f21ae522629"}
+Partition - 2
+Offset - 3
+
+Sys-log: 2023-04-15T18:16:42.218354 - 6026e437-c1b4-45ae-98a2-64b44bfc0ed0
+Msg - {"actualTemp":334.541130675272,"scale":"Kelvin","catchId":"5997004d-390a-4b01-9922-90bba4143765"}
+Partition - 2
 Offset - 4
 
-Sys-log: 2023-04-15T06:14:03.057542 - 39b9a271-2473-422c-9607-ef0e8896dc1c
-Msg - {"actualTemp":75.72176952577308,"scale":"Farenheits","catchId":"c84b51c1-f389-4d0f-9d7a-ff17472e93de"}
-Partition - 9
+Sys-log: 2023-04-15T18:16:42.218775 - 2dc3b00c-7d3c-43ff-b48e-04d20ca61d3d
+Msg - {"actualTemp":299.1863890092695,"scale":"Kelvin","catchId":"193ac2f6-48fb-4d01-ae1d-6770f279a382"}
+Partition - 2
 Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.219203 - f0b66be3-8239-4d4a-8106-23145d7fc65e
+Msg - {"actualTemp":335.45348679923563,"scale":"Kelvin","catchId":"2a97ebda-84af-4993-9f95-48dc24b6e155"}
+Partition - 2
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.219677 - f84eb6df-d107-4be0-88c2-c054eabeef53
+Msg - {"actualTemp":334.4369075756623,"scale":"Kelvin","catchId":"0b355ba0-b225-4fb1-b615-25f7376d8783"}
+Partition - 2
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.220216 - a7292de7-092b-418c-9622-3a70ea11003a
+Msg - {"actualTemp":341.3142440044673,"scale":"Kelvin","catchId":"b20d6ed0-a6eb-47a8-b5ea-eff77ed62ea5"}
+Partition - 2
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.220685 - 1939af1c-ae14-40a6-a887-5f9ac377795d
+Msg - {"actualTemp":371.02512725248454,"scale":"Kelvin","catchId":"a3d6ea16-61f7-4da2-81a5-c7e3275da8b7"}
+Partition - 2
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.221222 - aa67cea1-6831-416e-8969-b17c597406e6
+Msg - {"actualTemp":164.68614719131966,"scale":"Farenheits","catchId":"dba627b1-5860-4c97-ab45-8f322e514e79"}
+Partition - 2
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.221656 - 8f8104f3-8995-4978-9293-2cffabc6c749
+Msg - {"actualTemp":190.83429946717197,"scale":"Farenheits","catchId":"b352bb68-c8f9-4237-9709-ef6923ea5ead"}
+Partition - 2
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.222082 - 99b5aa11-0acc-48dd-bced-77fbe388cc8e
+Msg - {"actualTemp":51.135752697104266,"scale":"Farenheits","catchId":"16cd8569-b986-4e1a-85e6-8426c58dda7e"}
+Partition - 2
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.222530 - fec09991-7f0d-49ad-9361-383b35faa70a
+Msg - {"actualTemp":154.1652942512386,"scale":"Farenheits","catchId":"fd6957f4-fb12-460a-8511-8d115e591d59"}
+Partition - 2
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.222957 - 5158f15e-9daf-490e-9fe8-77a3299726ab
+Msg - {"actualTemp":94.94551110386246,"scale":"Farenheits","catchId":"fed00951-8f5a-4ff3-b53f-8dda25028672"}
+Partition - 2
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.223379 - 6daaa00c-1b5c-4f5e-94df-6fc486c202b2
+Msg - {"actualTemp":172.30600059905967,"scale":"Farenheits","catchId":"0263d52e-1cbf-4ad6-bb7e-efeb8efc0869"}
+Partition - 2
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.224141 - 5f6cb624-3bfb-4338-a528-dd072e79c183
+Msg - {"actualTemp":121.42778779377824,"scale":"Farenheits","catchId":"8a808979-baf6-4c0b-b6ca-07ef338290c8"}
+Partition - 2
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.224634 - 2f09d70d-9921-4a42-9597-5ad7866ac797
+Msg - {"actualTemp":82.32045114866892,"scale":"Farenheits","catchId":"34f373cf-c491-420d-bab6-f9a924504ca9"}
+Partition - 2
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.225059 - 420db767-f679-4a0f-bba3-1fc762206ded
+Msg - {"actualTemp":172.6413280020848,"scale":"Farenheits","catchId":"bb0d3eca-b84a-4b39-9e24-d480ffff807f"}
+Partition - 2
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.225472 - e97b2211-c4d3-47ae-9ebb-059e8cd914bd
+Msg - {"actualTemp":56.02817978146649,"scale":"Farenheits","catchId":"681f0002-f358-40fa-b708-fc6aa8bcbf71"}
+Partition - 2
+Offset - 19
+
+Sys-log: 2023-04-15T18:16:42.225896 - abcdaa70-b910-44b4-a9e6-3591e718f300
+Msg - {"actualTemp":191.29705059953898,"scale":"Farenheits","catchId":"b0046d4e-57f1-4147-ac13-3b2e86b775b5"}
+Partition - 2
+Offset - 20
+
+Sys-log: 2023-04-15T18:16:42.226295 - fe6ecc90-5830-46e8-952e-7262b2eeaaa3
+Msg - {"actualTemp":92.14968125560117,"scale":"Farenheits","catchId":"4d0980d2-436b-43af-ba72-9d11c75d3dfb"}
+Partition - 2
+Offset - 21
+
+Sys-log: 2023-04-15T18:16:42.226695 - addfc076-0f14-4ae5-91e8-c65e87b84bb3
+Msg - {"actualTemp":97.32992627600069,"scale":"Farenheits","catchId":"2ed0cb23-e18b-4829-ab85-ac26e484af27"}
+Partition - 2
+Offset - 22
+
+Sys-log: 2023-04-15T18:16:42.227081 - c6857a99-c26a-4fef-9187-ab14bf3411de
+Msg - {"actualTemp":53.068066893958246,"scale":"Farenheits","catchId":"73c52070-a51e-4d9a-8515-e4b96ef00bb4"}
+Partition - 2
+Offset - 23
+
+Sys-log: 2023-04-15T18:16:42.227478 - a04cafed-1458-4ed7-92c4-eed50b05bad7
+Msg - {"actualTemp":35.59016367259973,"scale":"Farenheits","catchId":"af61b562-0eda-44ed-b952-6d9ea762118a"}
+Partition - 2
+Offset - 24
+
+Sys-log: 2023-04-15T18:16:42.228462 - 1cc05401-f436-4f31-b7c5-d40fa734a3e9
+Msg - {"actualTemp":346.7145262173998,"scale":"Kelvin","catchId":"dba627b1-5860-4c97-ab45-8f322e514e79"}
+Partition - 3
+Offset - 3
+
+Sys-log: 2023-04-15T18:16:42.228877 - 5b70c531-d017-4824-a316-13605023e2ec
+Msg - {"actualTemp":329.96102388712984,"scale":"Kelvin","catchId":"32ce665d-c1bd-441c-b8e2-0597e1fc47b6"}
+Partition - 3
+Offset - 4
+
+Sys-log: 2023-04-15T18:16:42.229309 - 94490791-6d0c-4ed5-a7e6-ef298f89ca39
+Msg - {"actualTemp":338.50519955039243,"scale":"Kelvin","catchId":"868539d8-8257-48b0-a9fb-26405e4ff02c"}
+Partition - 3
+Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.229718 - 07d1e1b1-6cf5-41ec-8432-1b89d72e61b8
+Msg - {"actualTemp":309.2944034866671,"scale":"Kelvin","catchId":"2ed0cb23-e18b-4829-ab85-ac26e484af27"}
+Partition - 3
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.230113 - 7b1281d9-2a7f-43e0-9f85-5f708fe50787
+Msg - {"actualTemp":355.4375097836704,"scale":"Kelvin","catchId":"f3cc595f-1212-40f7-a5ce-77b404397abe"}
+Partition - 3
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.230517 - 7cf95c39-5671-45b5-837d-5b21f030676d
+Msg - {"actualTemp":333.39475502394276,"scale":"Kelvin","catchId":"609de8cd-cf65-4bba-b296-09fa790c10e9"}
+Partition - 3
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.230909 - 2cde58ae-773c-4eaf-833c-9da32091b81c
+Msg - {"actualTemp":290.7688821332229,"scale":"Kelvin","catchId":"72272bf1-cc11-4c88-a171-194d4d668490"}
+Partition - 3
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.231321 - e7ed04d5-cc7b-4bad-b3ad-871f3ffff043
+Msg - {"actualTemp":309.34768747861546,"scale":"Kelvin","catchId":"9b69ee63-af97-4f9f-9c5f-f27538bebdbf"}
+Partition - 3
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.231730 - 136712d0-f702-4fd4-a32f-9435ee8c1bd1
+Msg - {"actualTemp":314.31302465733415,"scale":"Kelvin","catchId":"50175bf6-6937-4635-adcc-c594bd9df3d6"}
+Partition - 3
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.232128 - 76b48660-36ac-4118-9fd6-bf7f9b37a18c
+Msg - {"actualTemp":365.92275368737995,"scale":"Kelvin","catchId":"58840d7c-28ff-43e0-817a-446876bccd9e"}
+Partition - 3
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.232519 - 14a27ef6-6892-434a-9fea-9eaf4cc67047
+Msg - {"actualTemp":331.8325864523102,"scale":"Kelvin","catchId":"a311a4ae-c3a7-4530-bf6b-243a0dd309c0"}
+Partition - 3
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.232913 - dfd11c62-7789-4206-8f5f-d806e546912e
+Msg - {"actualTemp":333.20200769857547,"scale":"Kelvin","catchId":"4fa397b6-cec1-4358-91ac-00ca29d067c1"}
+Partition - 3
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.233329 - bf575c7a-a208-4c65-afd3-e6fd8f138bee
+Msg - {"actualTemp":139.69264826546436,"scale":"Farenheits","catchId":"f1ccfbba-2d6f-4edd-b7e5-b7324b1f8286"}
+Partition - 3
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.233719 - a297ae21-c961-464a-95ab-9ed14dc58c58
+Msg - {"actualTemp":94.63427907026366,"scale":"Farenheits","catchId":"a1be3218-5ae9-4dfb-8f16-9e248db491f3"}
+Partition - 3
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.234776 - 17f338f3-a902-4247-a0a5-216ee2f50da3
+Msg - {"actualTemp":284.26142838605136,"scale":"Kelvin","catchId":"dcede7f9-1ae8-4b09-84cf-f01f86d36d8f"}
+Partition - 4
+Offset - 4
+
+Sys-log: 2023-04-15T18:16:42.235200 - cc8113f6-a939-43be-8711-94db2f44c6b0
+Msg - {"actualTemp":370.4255479292262,"scale":"Kelvin","catchId":"433d86e5-eca1-4d8f-9ee5-68c02ebd0d87"}
+Partition - 4
+Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.235612 - 004565e8-f705-4ed8-bd21-b7955e51e31e
+Msg - {"actualTemp":280.1180102679965,"scale":"Kelvin","catchId":"f4a97549-ee79-4220-80a3-6ceea8506c9b"}
+Partition - 4
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.236017 - 3d0ff69c-7235-4a0b-b4e1-76365e9ea8f3
+Msg - {"actualTemp":353.5294236957476,"scale":"Kelvin","catchId":"cbd38b29-1fee-4b94-8c7d-a71b23f064eb"}
+Partition - 4
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.236423 - f0b2f5ac-804a-40cd-9bde-cfff4c7b6ec5
+Msg - {"actualTemp":356.79456510471437,"scale":"Kelvin","catchId":"fc54a13d-1676-46fe-b56b-3f0213b50473"}
+Partition - 4
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.236850 - f55f7796-e432-42e8-a66a-a39ee0f7d5f3
+Msg - {"actualTemp":359.7623690915143,"scale":"Kelvin","catchId":"ef1f14a1-b045-4b34-ba2b-609ebb639a7b"}
+Partition - 4
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.237319 - 99b610bc-7972-42b2-b35e-69c51800ffdc
+Msg - {"actualTemp":286.3489887674814,"scale":"Kelvin","catchId":"681f0002-f358-40fa-b708-fc6aa8bcbf71"}
+Partition - 4
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.237791 - 3082e7ba-998b-4256-867c-35562c6393e1
+Msg - {"actualTemp":43.92234552604544,"scale":"Farenheits","catchId":"06f687a3-2885-485c-aa21-ece5a5dcb41a"}
+Partition - 4
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.238406 - 16d80cb0-fcb1-4b02-b29a-104fc33316ea
+Msg - {"actualTemp":160.06360799927253,"scale":"Farenheits","catchId":"d98c7d3a-924d-4bd7-b80a-c5273898905b"}
+Partition - 4
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.239047 - f5b8b456-61dc-40ef-8cbf-4b3d7dfcd50c
+Msg - {"actualTemp":143.36143756461686,"scale":"Farenheits","catchId":"bd7a2fe2-ecb4-4cd1-9b8b-b9290092b4f8"}
+Partition - 4
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.239668 - 0fb99ea4-4fcc-4004-8a5d-8218506ca1bb
+Msg - {"actualTemp":111.21931375026819,"scale":"Farenheits","catchId":"e279705d-9f31-4923-999e-1d3f22b7f43c"}
+Partition - 4
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.240151 - 4ee295ac-3df0-4aa9-89f9-99725641b214
+Msg - {"actualTemp":49.02711079556828,"scale":"Farenheits","catchId":"96bbff70-c01c-4499-9bc9-fe257b506734"}
+Partition - 4
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.240568 - b62b6a55-5427-4eb3-a9a5-376c9f2c317b
+Msg - {"actualTemp":94.86303358942189,"scale":"Farenheits","catchId":"f2ed66a4-ca45-43aa-8862-e10538151b37"}
+Partition - 4
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.242022 - 814fd0db-d761-4472-9786-28fca5fc6481
+Msg - {"actualTemp":370.08595373796254,"scale":"Kelvin","catchId":"70a309a2-d81f-4a8d-9f8d-b75ac48a6314"}
+Partition - 5
+Offset - 2
+
+Sys-log: 2023-04-15T18:16:42.242655 - 52985007-cd0a-492a-bdff-cb61cbb73077
+Msg - {"actualTemp":361.2412774817622,"scale":"Kelvin","catchId":"b352bb68-c8f9-4237-9709-ef6923ea5ead"}
+Partition - 5
+Offset - 3
+
+Sys-log: 2023-04-15T18:16:42.243259 - 1abc7e5e-9846-4842-aec9-d4298c88e44a
+Msg - {"actualTemp":340.90864536541903,"scale":"Kelvin","catchId":"cd4f7380-d8df-41c9-a5c5-57dde8a85867"}
+Partition - 5
+Offset - 4
+
+Sys-log: 2023-04-15T18:16:42.243882 - c7c0a859-cfa7-4b72-a25d-ff3da2dc2d6f
+Msg - {"actualTemp":52.90498481815048,"scale":"Farenheits","catchId":"ee15aa71-add7-461d-8777-8f027951e4b3"}
+Partition - 5
+Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.244458 - 998bebc0-03de-4113-8a4f-29e66c433d3a
+Msg - {"actualTemp":66.7143621189307,"scale":"Farenheits","catchId":"f2490aac-3568-41c0-ac62-3dece2e8e2a5"}
+Partition - 5
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.244884 - 341f5b9c-51a8-40a5-99f0-1131cd79ca7e
+Msg - {"actualTemp":63.983987839801216,"scale":"Farenheits","catchId":"72272bf1-cc11-4c88-a171-194d4d668490"}
+Partition - 5
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.245335 - 735e9169-427a-428a-9e51-89c7936f66a9
+Msg - {"actualTemp":154.23556165775423,"scale":"Farenheits","catchId":"cd4f7380-d8df-41c9-a5c5-57dde8a85867"}
+Partition - 5
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.245765 - f3ae1322-ad91-44d9-89b3-ed40a27a4020
+Msg - {"actualTemp":77.27176423437905,"scale":"Farenheits","catchId":"9ca5babd-c48c-462b-926b-b413dfcb8173"}
+Partition - 5
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.246199 - dfd6b589-2126-4cbe-9bda-d7c7ccd1b3f8
+Msg - {"actualTemp":86.4447778696625,"scale":"Farenheits","catchId":"671ad81a-7546-4508-919f-0bd2f9a94b65"}
+Partition - 5
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.246600 - 2a8b0aa8-fc28-43e9-a50e-cb00ad616def
+Msg - {"actualTemp":140.48721815785717,"scale":"Farenheits","catchId":"1b9778db-8a0d-427c-b888-fcd6698df590"}
+Partition - 5
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.247454 - c57d5873-bebb-4101-b394-73303e99a80d
+Msg - {"actualTemp":307.79682170570203,"scale":"Kelvin","catchId":"a1be3218-5ae9-4dfb-8f16-9e248db491f3"}
+Partition - 6
+Offset - 3
+
+Sys-log: 2023-04-15T18:16:42.247886 - 1693459f-7b54-4709-b8b3-4b892e76a198
+Msg - {"actualTemp":340.86960791735476,"scale":"Kelvin","catchId":"fd6957f4-fb12-460a-8511-8d115e591d59"}
+Partition - 6
+Offset - 4
+
+Sys-log: 2023-04-15T18:16:42.248295 - 54e96c93-34d3-47f3-91ae-100de67b6f4d
+Msg - {"actualTemp":340.77676011040677,"scale":"Kelvin","catchId":"32867afc-b685-440e-91b9-7f4e0bfd7929"}
+Partition - 6
+Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.248710 - d8de3656-cb29-44d0-b958-802cc4c0bcdd
+Msg - {"actualTemp":303.24709881647914,"scale":"Kelvin","catchId":"671ad81a-7546-4508-919f-0bd2f9a94b65"}
+Partition - 6
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.249119 - c29acdaf-655a-4a0b-a230-6ca17ddaa948
+Msg - {"actualTemp":318.65576682214237,"scale":"Kelvin","catchId":"9d546a72-54f9-4f77-87f9-02a51a88e0e6"}
+Partition - 6
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.249582 - 15a80071-6b25-4a8f-ae22-3c35745ffc31
+Msg - {"actualTemp":353.0274647392175,"scale":"Kelvin","catchId":"5e88a204-1a03-4dfa-8fa2-4ca852122757"}
+Partition - 6
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.250048 - 83f02dcf-bd77-4dfa-9e77-e90e2f7ae032
+Msg - {"actualTemp":368.69225616075653,"scale":"Kelvin","catchId":"97d782cf-16a4-4d8b-8787-23bfb20ca56d"}
+Partition - 6
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.250464 - 316222c8-85f4-43f2-9c1f-3765504b7842
+Msg - {"actualTemp":292.06139257968607,"scale":"Kelvin","catchId":"9262452d-9142-4f90-bfc1-0cf4949542c4"}
+Partition - 6
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.250860 - db8c4d2a-56c6-4b4f-9d49-59d7a3afdd74
+Msg - {"actualTemp":329.7124394673534,"scale":"Kelvin","catchId":"7683a4ff-d442-4992-a491-47e70e11f2a2"}
+Partition - 6
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.251266 - a742d499-1a8d-4539-9240-5cb9d4f4254f
+Msg - {"actualTemp":322.89269932734413,"scale":"Kelvin","catchId":"39d8ba76-4bc9-4c80-b869-48bce5ec7671"}
+Partition - 6
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.251705 - d2970a7b-b234-411c-b3d3-75f1cac8e29d
+Msg - {"actualTemp":336.9312447141974,"scale":"Kelvin","catchId":"71e7e233-fa16-4ba9-b3e7-4fc503ed30ab"}
+Partition - 6
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.252103 - 4d6e4102-9ac4-430a-88ad-0eb39df19f91
+Msg - {"actualTemp":297.416638074851,"scale":"Kelvin","catchId":"7f193a5e-eca5-49d1-8f62-9c864695098e"}
+Partition - 6
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.252524 - 924dd31b-9b60-40d4-9de6-2b4ba8e61b34
+Msg - {"actualTemp":307.6953396935964,"scale":"Kelvin","catchId":"55efcc6f-dd22-4e7e-a47a-0a06bd37f2a9"}
+Partition - 6
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.252921 - 32316aad-aba3-429b-839d-f9a525b897ab
+Msg - {"actualTemp":178.98475043422715,"scale":"Farenheits","catchId":"3bf7de13-ce54-45d6-8acd-a3cf2d73a998"}
+Partition - 6
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.253394 - a555b2eb-637d-4161-8bd6-31757681e02b
+Msg - {"actualTemp":179.09599251493506,"scale":"Farenheits","catchId":"743ed541-7227-40dd-abc9-de47cbaab4c0"}
+Partition - 6
+Offset - 17
+
+Sys-log: 2023-04-15T18:16:42.253815 - f682503b-f1cc-4e26-b84d-23521ebe821f
+Msg - {"actualTemp":147.16177757971013,"scale":"Farenheits","catchId":"1b66c75e-dee6-40ea-8e6b-a8d7cead07a3"}
+Partition - 6
+Offset - 18
+
+Sys-log: 2023-04-15T18:16:42.254731 - 379ad3ca-8ab7-4d83-979f-e57ec25b29ef
+Msg - {"actualTemp":301.6844973424641,"scale":"Kelvin","catchId":"8e0e3509-10c0-43eb-886e-2b4fa87223c0"}
+Partition - 7
+Offset - 1
+
+Sys-log: 2023-04-15T18:16:42.255166 - 137f591f-3bcb-4e96-b5af-ab508d29daf9
+Msg - {"actualTemp":322.6821043298768,"scale":"Kelvin","catchId":"8a808979-baf6-4c0b-b6ca-07ef338290c8"}
+Partition - 7
+Offset - 2
+
+Sys-log: 2023-04-15T18:16:42.255683 - b3a08cb7-f313-4147-a8af-a721e4cad722
+Msg - {"actualTemp":334.867465313676,"scale":"Kelvin","catchId":"bd7a2fe2-ecb4-4cd1-9b8b-b9290092b4f8"}
+Partition - 7
+Offset - 3
+
+Sys-log: 2023-04-15T18:16:42.256297 - d12ef370-b64f-4a1a-982d-4f12c7b98938
+Msg - {"actualTemp":298.74040057769446,"scale":"Kelvin","catchId":"f849b7ca-a537-46ab-b074-e2ea66267825"}
+Partition - 7
+Offset - 4
+
+Sys-log: 2023-04-15T18:16:42.256728 - d7eec1e6-e8f1-40ab-af80-b9e842a057d2
+Msg - {"actualTemp":363.60756340234263,"scale":"Kelvin","catchId":"489e5de4-b826-4416-a529-ecc0053e05fc"}
+Partition - 7
+Offset - 5
+
+Sys-log: 2023-04-15T18:16:42.257175 - ca7a41c2-8813-43e8-a4f9-e517fb1c64b8
+Msg - {"actualTemp":332.71843832441266,"scale":"Kelvin","catchId":"fb01f3c3-2a90-41c9-8db2-7eb0255a1305"}
+Partition - 7
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.257627 - 4b508214-e1bd-4eea-84b9-5a38b839128d
+Msg - {"actualTemp":134.08239104123612,"scale":"Farenheits","catchId":"7683a4ff-d442-4992-a491-47e70e11f2a2"}
+Partition - 7
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.258070 - 5153d857-8b72-46bf-acd6-538f8663f2c0
+Msg - {"actualTemp":149.90935919070643,"scale":"Farenheits","catchId":"868539d8-8257-48b0-a9fb-26405e4ff02c"}
+Partition - 7
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.258491 - 73e3007a-ed2a-4e48-ba1e-1466cd0f453a
+Msg - {"actualTemp":188.1722643647258,"scale":"Farenheits","catchId":"ef1f14a1-b045-4b34-ba2b-609ebb639a7b"}
+Partition - 7
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.258896 - cba60cfd-fe8a-4f92-a9b8-e51b3ce9a60a
+Msg - {"actualTemp":142.5864336361921,"scale":"Farenheits","catchId":"0b355ba0-b225-4fb1-b615-25f7376d8783"}
+Partition - 7
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.259356 - 847dc73f-6392-478e-a3cc-b8ff8b3c346c
+Msg - {"actualTemp":205.73045424956123,"scale":"Farenheits","catchId":"7137bd58-0844-4a32-b0ae-627ee5b5d667"}
+Partition - 7
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.259767 - c16bbfaf-8c73-46ec-b2c0-cabe59057c8b
+Msg - {"actualTemp":44.86213458671942,"scale":"Farenheits","catchId":"23339a6b-fc53-423a-be4b-1954f0b8cad5"}
+Partition - 7
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.260692 - 759ba89f-e94e-47cd-8aec-c97df7c6f8a4
+Msg - {"actualTemp":332.8292490363691,"scale":"Kelvin","catchId":"f1ccfbba-2d6f-4edd-b7e5-b7324b1f8286"}
+Partition - 8
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.261187 - a9aca1fb-7055-4732-ab2d-4417de347a9f
+Msg - {"actualTemp":314.0445287322137,"scale":"Kelvin","catchId":"ca1fd65f-a8a5-4a46-80d9-84c818b62d29"}
+Partition - 8
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.261615 - 0577d7e0-a46c-4ad7-ba69-d88b24ada6de
+Msg - {"actualTemp":299.3115935529387,"scale":"Kelvin","catchId":"820c4c79-b83d-4953-9089-4041a75e75de"}
+Partition - 8
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.262060 - 95b7acc6-c758-4660-a679-00957b2f5fd2
+Msg - {"actualTemp":286.61415788529774,"scale":"Kelvin","catchId":"750814d4-638d-4caa-81f4-9a1010568143"}
+Partition - 8
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.262511 - 6403c606-ac77-45fa-bada-d525467f37f9
+Msg - {"actualTemp":307.96972839103466,"scale":"Kelvin","catchId":"fed00951-8f5a-4ff3-b53f-8dda25028672"}
+Partition - 8
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.262954 - ae3594a4-f67e-4e7b-9c73-52f3935bdec3
+Msg - {"actualTemp":335.8339161044715,"scale":"Kelvin","catchId":"aabefd74-03d5-425e-ab5d-e7eb061475aa"}
+Partition - 8
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.263387 - 95fb755e-9de6-4202-9b6a-7d5aef92a9bb
+Msg - {"actualTemp":311.9954620359151,"scale":"Kelvin","catchId":"3c3a0b0d-3a68-41f8-8ff3-c0436717bef5"}
+Partition - 8
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.263786 - b3247817-4d64-46a4-936c-978065516cea
+Msg - {"actualTemp":308.2267082323684,"scale":"Kelvin","catchId":"ecb7ed30-f8db-43ab-a799-2e4654b44f83"}
+Partition - 8
+Offset - 14
+
+Sys-log: 2023-04-15T18:16:42.264173 - ab3868a4-e640-4810-b418-4a2fa5fa25dd
+Msg - {"actualTemp":154.96563920804118,"scale":"Farenheits","catchId":"b20d6ed0-a6eb-47a8-b5ea-eff77ed62ea5"}
+Partition - 8
+Offset - 15
+
+Sys-log: 2023-04-15T18:16:42.264649 - 5f47ced0-d2b4-4873-adbe-3662f588489e
+Msg - {"actualTemp":176.04943653059158,"scale":"Farenheits","catchId":"5e88a204-1a03-4dfa-8fa2-4ca852122757"}
+Partition - 8
+Offset - 16
+
+Sys-log: 2023-04-15T18:16:42.265551 - ea0213be-4b99-481b-b28e-e962ef42f9ac
+Msg - {"actualTemp":332.74797083935624,"scale":"Kelvin","catchId":"be3f20da-9ff8-4778-b112-a3fcab13d2c7"}
+Partition - 9
+Offset - 6
+
+Sys-log: 2023-04-15T18:16:42.265983 - fac8cec8-2422-4e5b-9d4a-9851b0cc0c89
+Msg - {"actualTemp":280.1456303259552,"scale":"Kelvin","catchId":"23339a6b-fc53-423a-be4b-1954f0b8cad5"}
+Partition - 9
+Offset - 7
+
+Sys-log: 2023-04-15T18:16:42.266395 - 47573bba-cd7e-454d-a233-cb4752f9be0e
+Msg - {"actualTemp":345.0931781791481,"scale":"Kelvin","catchId":"af3dd497-74bb-449f-abf5-4917ab10cf5e"}
+Partition - 9
+Offset - 8
+
+Sys-log: 2023-04-15T18:16:42.266793 - a4d8cb5e-c9c2-4930-a272-9db01d4e2ad7
+Msg - {"actualTemp":280.94996366810545,"scale":"Kelvin","catchId":"bdaad195-47ef-474e-a952-2aaa3ff02bf0"}
+Partition - 9
+Offset - 9
+
+Sys-log: 2023-04-15T18:16:42.267267 - aad15f7f-4908-4ca2-9cff-dfb24118c3ec
+Msg - {"actualTemp":180.38751761060678,"scale":"Farenheits","catchId":"f3cc595f-1212-40f7-a5ce-77b404397abe"}
+Partition - 9
+Offset - 10
+
+Sys-log: 2023-04-15T18:16:42.267806 - 041e5ad0-7de9-49bb-b4ac-716cbccb5817
+Msg - {"actualTemp":176.81604515648132,"scale":"Farenheits","catchId":"c68402ae-e855-40ed-8cd2-a6e6044721b1"}
+Partition - 9
+Offset - 11
+
+Sys-log: 2023-04-15T18:16:42.268348 - f64c98e5-b1ba-48a4-a606-2dced882b521
+Msg - {"actualTemp":52.27057109489242,"scale":"Farenheits","catchId":"dcede7f9-1ae8-4b09-84cf-f01f86d36d8f"}
+Partition - 9
+Offset - 12
+
+Sys-log: 2023-04-15T18:16:42.268942 - 5c9dd5d6-72aa-4e76-830f-effaafe63cab
+Msg - {"actualTemp":139.80419238312157,"scale":"Farenheits","catchId":"e10f62c4-3279-4cf1-84f2-5458fd86b4ce"}
+Partition - 9
+Offset - 13
+
+Sys-log: 2023-04-15T18:16:42.269516 - 1d4701bf-63ef-4c1d-8196-202725142ceb
+Msg - {"actualTemp":208.909823302115,"scale":"Farenheits","catchId":"410f791b-606b-45ae-827d-c4ae0f02b672"}
+Partition - 9
+Offset - 14
 
