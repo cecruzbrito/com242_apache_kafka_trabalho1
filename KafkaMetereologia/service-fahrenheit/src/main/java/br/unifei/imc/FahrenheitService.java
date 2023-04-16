@@ -9,28 +9,14 @@ import java.util.concurrent.ExecutionException;
 
 public class FahrenheitService {
 
-    private final ArrayList<Temperature> buffer;
-
-    public FahrenheitService(ArrayList<Temperature> buffer) {
-        this.buffer = buffer;
-    }
-
     public static void main(String[] args) throws ExecutionException, InterruptedException {
-        var toConvertRecords = new ArrayList<Temperature>();
-        var farenhService = new FahrenheitService(toConvertRecords);
+        var farenhService = new FahrenheitService();
         try(var service = new KafkaService<>(FahrenheitService.class.getSimpleName(),
                 "TEMPERATURE_CURRENT",
                 farenhService::parse,
                 Temperature.class,
                 Map.of())){
             service.run();
-        }
-        try(var dispatcher = new KafkaDispatcher<Temperature>()){
-            for(var temp : toConvertRecords){
-                var key = UUID.randomUUID().toString();
-                var convertTmp = new Temperature(toFarenheits(temp.getActualTemp()),"Farenheits", temp.getCatchId());
-                dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
-            }
         }
     }
     private void parse(ConsumerRecord<String, Temperature> record) {
@@ -46,7 +32,13 @@ public class FahrenheitService {
             e.printStackTrace();
         }
         System.out.println("Temperaturas processadas!");
-        buffer.add(record.value());
+        try(var dispatcher = new KafkaDispatcher<Temperature>()){
+            var key = UUID.randomUUID().toString();
+            var convertTmp = new Temperature(toFarenheits(record.value().getActualTemp()),"Farenheits", record.value().getCatchId());
+            dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
+        } catch (ExecutionException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static Double toFarenheits(Double tmp){

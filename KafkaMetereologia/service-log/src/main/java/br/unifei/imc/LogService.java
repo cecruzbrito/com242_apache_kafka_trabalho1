@@ -28,6 +28,11 @@ public class LogService {
         System.out.println(record.value());
         System.out.println(record.partition());
         System.out.println(record.offset());
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         LocalDateTime now = LocalDateTime.now();
         System.out.println(now);
         //Fluxo de saida de um arquivo

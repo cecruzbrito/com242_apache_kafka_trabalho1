@@ -9,27 +9,15 @@ import java.util.concurrent.ExecutionException;
 
 public class KelvinService {
 
-    private final ArrayList<Temperature> buffer;
-
-    public KelvinService(ArrayList<Temperature> buffer) {
-        this.buffer = buffer;
-    }
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         var toConvertRecords = new ArrayList<Temperature>();
-        var kelvinService = new KelvinService(toConvertRecords);
+        var kelvinService = new KelvinService();
         try(var service = new KafkaService<>(KelvinService.class.getSimpleName(),
                 "TEMPERATURE_CURRENT",
                 kelvinService::parse,
                 Temperature.class,
                 Map.of())){
         service.run();
-        }
-        try(var dispatcher = new KafkaDispatcher<Temperature>()){
-            for(var temp : toConvertRecords){
-                var key = UUID.randomUUID().toString();
-                var convertTmp = new Temperature(toKelvin(temp.getActualTemp()),"Kelvin", temp.getCatchId());
-                dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
-            }
         }
     }
 
@@ -41,12 +29,18 @@ public class KelvinService {
         System.out.println("Consumed partition - " + record.partition());
         System.out.println("Message partition offeset - " + record.offset());
         try {
-            Thread.sleep(100);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println("Temperaturas processadas!");
-        buffer.add(record.value());
+        try(var dispatcher = new KafkaDispatcher<Temperature>()){
+            var key = UUID.randomUUID().toString();
+            var convertTmp = new Temperature(toKelvin(record.value().getActualTemp()),"Kelvin", record.value().getCatchId());
+            dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
+        } catch (ExecutionException | InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private static Double toKelvin(Double temp) {
