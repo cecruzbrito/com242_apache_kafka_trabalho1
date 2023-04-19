@@ -2,14 +2,13 @@ package br.unifei.imc;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
-import java.util.ArrayList;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 public class FahrenheitService {
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) {
         var farenhService = new FahrenheitService();
         try(var service = new KafkaService<>(FahrenheitService.class.getSimpleName(),
                 "TEMPERATURE_CURRENT",

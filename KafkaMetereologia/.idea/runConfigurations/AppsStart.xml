@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AppsStart" type="CompoundRunConfigurationType">
+    <toRun name="1-LogService" type="Application" />
+    <toRun name="2-KelvinService" type="Application" />
+    <toRun name="3-KelvinService1" type="Application" />
+    <toRun name="4-FahrenheitService" type="Application" />
+    <toRun name="5-FahrenheitService1" type="Application" />
+    <toRun name="6-ListenServiceCelsius" type="Application" />
+    <toRun name="7-InterativaService" type="Application" />
+    <method v="2" />
+  </configuration>
+</component>

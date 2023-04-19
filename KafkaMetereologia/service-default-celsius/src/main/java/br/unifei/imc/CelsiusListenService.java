@@ -3,9 +3,6 @@ package br.unifei.imc;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 
 import java.util.Map;
-import java.util.Scanner;
-import java.util.UUID;
-import java.util.concurrent.ExecutionException;
 
 public class CelsiusListenService {
     public static void main(String[] args){

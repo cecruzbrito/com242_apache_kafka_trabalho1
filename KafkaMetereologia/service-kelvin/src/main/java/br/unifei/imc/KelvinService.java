@@ -9,7 +9,7 @@ import java.util.concurrent.ExecutionException;
 
 public class KelvinService {
 
-    public static void main(String[] args) throws ExecutionException, InterruptedException {
+    public static void main(String[] args) {
         var toConvertRecords = new ArrayList<Temperature>();
         var kelvinService = new KelvinService();
         try(var service = new KafkaService<>(KelvinService.class.getSimpleName(),
