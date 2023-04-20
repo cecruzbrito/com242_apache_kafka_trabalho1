@@ -41,7 +41,7 @@ public class CelsiusService {
             for (int i = 0; i < msgQuantity; i++) {
                 var key = UUID.randomUUID().toString();
                 var actualTemp = Math.random() * 100 + 1;
-                var temp = new Temperature(actualTemp, "Celsius", key);
+                var temp = new Temperature(actualTemp, "Celsius", key, "0");
                 dispatcher.send("TEMPERATURE_CURRENT", key, temp);
             }
         } catch (ExecutionException | InterruptedException e) {
@@ -51,7 +51,7 @@ public class CelsiusService {
     private void newProducer(Double temperature){
         try(var dispatcher = new KafkaDispatcher<Temperature>()){
                 var key = UUID.randomUUID().toString();
-                var temp = new Temperature(temperature, "Celsius", key);
+                var temp = new Temperature(temperature, "Celsius", key, "0");
                 dispatcher.send("TEMPERATURE_CURRENT", key, temp);
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);

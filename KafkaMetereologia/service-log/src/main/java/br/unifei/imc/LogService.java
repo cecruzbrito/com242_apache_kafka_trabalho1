@@ -5,6 +5,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 import java.util.regex.Pattern;
 import java.io.*;
@@ -33,7 +34,9 @@ public class LogService {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        LocalDateTime now = LocalDateTime.now();
+        LocalDateTime dateTime = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        String now = dateTime.format(formatter);
         System.out.println(now);
         //Fluxo de saida de um arquivo
         try(OutputStream os = new FileOutputStream("syslog.txt", true)) { // Name file

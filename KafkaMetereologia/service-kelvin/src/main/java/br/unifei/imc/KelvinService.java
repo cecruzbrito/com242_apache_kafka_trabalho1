@@ -36,7 +36,7 @@ public class KelvinService {
         System.out.println("Temperaturas processadas!");
         try(var dispatcher = new KafkaDispatcher<Temperature>()){
             var key = UUID.randomUUID().toString();
-            var convertTmp = new Temperature(toKelvin(record.value().getActualTemp()),"Kelvin", record.value().getCatchId());
+            var convertTmp = new Temperature(toKelvin(record.value().getActualTemp()),"Kelvin", key, record.value().getCatchId());
             dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);

@@ -33,7 +33,7 @@ public class FahrenheitService {
         System.out.println("Temperaturas processadas!");
         try(var dispatcher = new KafkaDispatcher<Temperature>()){
             var key = UUID.randomUUID().toString();
-            var convertTmp = new Temperature(toFarenheits(record.value().getActualTemp()),"Farenheits", record.value().getCatchId());
+            var convertTmp = new Temperature(toFarenheits(record.value().getActualTemp()),"Farenheits", key, record.value().getCatchId());
             dispatcher.send("TEMPERATURE_CONVERT", key, convertTmp);
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
