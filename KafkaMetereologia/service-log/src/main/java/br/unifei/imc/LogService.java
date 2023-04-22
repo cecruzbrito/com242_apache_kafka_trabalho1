@@ -21,24 +21,28 @@ public class LogService {
             service.run();
         }
     }
-
     private void parse(ConsumerRecord<String, String> record) {
+        String now = LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss"));
+        outputRecord(record,now);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        writeInFile(record, now);
+    }
+
+    private void outputRecord(ConsumerRecord<String, String> record, String date){
         System.out.println("------------------------------------------");
         System.out.println("LOG:");
         System.out.println(record.key());
         System.out.println(record.value());
         System.out.println(record.partition());
         System.out.println(record.offset());
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        LocalDateTime dateTime = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
-        String now = dateTime.format(formatter);
-        System.out.println(now);
-        //Fluxo de saida de um arquivo
+        System.out.println(date);
+    }
+
+    private void writeInFile(ConsumerRecord<String, String> record, String now){
         try(OutputStream os = new FileOutputStream("syslog.txt", true)) { // Name file
             Writer wr = new OutputStreamWriter(os); // writer
             BufferedWriter br = new BufferedWriter(wr);
@@ -56,4 +60,5 @@ public class LogService {
             throw new RuntimeException(e);
         }
     }
+
 }

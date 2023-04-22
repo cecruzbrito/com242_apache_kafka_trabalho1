@@ -17,6 +17,16 @@ public class CelsiusListenService {
     }
 
     private void parse(ConsumerRecord<String, Temperature> record) {
+        outputRecord(record);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("Temperaturas convertidas!");
+    }
+
+    private void outputRecord(ConsumerRecord<String, Temperature> record) {
         System.out.println("------------------------------------------");
         System.out.println("Dados de temperatura convertidas:");
         System.out.println("PackageUUID - " + record.key());
@@ -24,11 +34,5 @@ public class CelsiusListenService {
         System.out.println("Scale adopted - " + record.value().getScale());
         System.out.println("Consumed partition - " + record.partition());
         System.out.println("Message partition offeset - " + record.offset());
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        System.out.println("Temperaturas convertidas!");
     }
 }

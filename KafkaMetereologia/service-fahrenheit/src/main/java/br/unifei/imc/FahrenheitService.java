@@ -19,18 +19,17 @@ public class FahrenheitService {
         }
     }
     private void parse(ConsumerRecord<String, Temperature> record) {
-        System.out.println("------------------------------------------");
-        System.out.println("Mensagem em processamento pelo serviço de Fahrenheit:");
-        System.out.println("PackageUUID - " + record.key());
-        System.out.println("Temperature provided - " + record.value().getActualTemp());
-        System.out.println("Consumed partition - " + record.partition());
-        System.out.println("Message partition offeset - " + record.offset());
+        outputRecord(record);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         System.out.println("Temperaturas processadas!");
+        dispatcherRecord(record);
+    }
+
+    private  void dispatcherRecord(ConsumerRecord<String, Temperature> record) {
         try(var dispatcher = new KafkaDispatcher<Temperature>()){
             var key = UUID.randomUUID().toString();
             var convertTmp = new Temperature(toFarenheits(record.value().getActualTemp()),"Farenheits", key, record.value().getCatchId());
@@ -38,6 +37,15 @@ public class FahrenheitService {
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    private  void outputRecord(ConsumerRecord<String, Temperature> record) {
+        System.out.println("------------------------------------------");
+        System.out.println("Mensagem em processamento pelo serviço de Fahrenheit:");
+        System.out.println("PackageUUID - " + record.key());
+        System.out.println("Temperature provided - " + record.value().getActualTemp());
+        System.out.println("Consumed partition - " + record.partition());
+        System.out.println("Message partition offeset - " + record.offset());
     }
 
     private static Double toFarenheits(Double tmp){

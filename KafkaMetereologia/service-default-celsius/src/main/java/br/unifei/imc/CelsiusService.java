@@ -20,11 +20,10 @@ public class CelsiusService {
             switch(option){
                 case 1:
                     System.out.println("Quantos valores deseja enviar?");
-                    msgQuantity = user.getQuantityTemperatures(scan);
-                    celsiusService.newProducer(msgQuantity);
+                    celsiusService.newProducer(user.getQuantityTemperatures(scan));
                     break;
                 case 2:
-                    System.out.println("Quantos valores deseja enviar?");
+                    System.out.println("Qual temperatura deseja enviar?");
                     celsiusService.newProducer(user.getTemperature(scan));
                     break;
                 default:
