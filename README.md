@@ -50,80 +50,58 @@ As orientações estão divididas nos seguintes tópicos:
 ---
 ## Funcionalidades :gear:
 
- - [x] Coletar cidade e universidade do usuário;
- - [x] Anunciar novas vagas (características da acomodação);
- - [x] Fornecer as informações para contato com o dono da vaga;
- - [x] Permitir o anúncio de novas vagas para usuários cadastrados;
- - [x] Marcar no mapa as vagas já cadastradas.
- - [ ] 
+ - [x] Comunicação da aplicação com o broker
+ - [x] Envio de mensagens para os tópicos criados no broker - Publish
+ - [x] Consumo de mensagens enviadas para os tópicos - Subscribe
+ - [x] Propriedades para identificação dos grupIds de um mesmo tópico - Groups
+ - [x] Envio de temperaturas randômicas
+ - [x] Serviço destinado para conversão da temperatura fornecido para Kelvin
+ - [x] Serviço destinado para conversão da temperatura fornecido para Fahrenheit 
+
 ---
 ## Pré-requisitos e configuração :hammer_and_wrench:
 No geral, para executar a aplicação é recomendado que o sistema já possua:
 
-    > Java 8+;
-    > Flutter SDK;
-    > Android Studio;
-    > Visual Studio (para Windows);
-    > Visual Studio Code;
-    > Maven/Gradle.
+    > Java JDK 11+;
+    > Binários do Apache Kafka;
+    > Intellij IDEA Comuntity ou Ultimate;
+    > Maven.
 
-Para verificar o status do Flutter rode no terminal:
->flutter doctor
+Os pormenores de configuração do Kafka/Zookeeper estão presentes na [documentação](/docs) dessa aplicação protótipo.
 
-Deve-se ativar as licenças mais recentes do android com o comando:
->flutter doctor --android-licenses
-
-Se houver problemas com o SDK Command-line do Android, entre no SDK Manager presente no Android Studio e baixe o pacote conforme imagem abaixo.
-
-![SDKMANAGER](https://imgur.com/YI91FMs.png)
-
-Se necessário instale a extensão do Flutter no VSCode com:
->ext install Dart-Code.flutter
-
-O release do projeto fornece um apk para utilizar o aplicativo e, apesar do foco na versão mobile, as versões para Windows e Linux também estão funcionais.
-
-Para executar essas versões é necessário:
+Para executar a aplicação é necessário:
 
 ```bash
 
 # Clone este repositório com
-$ git clone https://github.com/darlosss/repime.git
-# ou
-$ git clone git@github.com:darlosss/repime.git
+$ git clone https://github.com/darlosss/com242_apache_kafka_trabalho1
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd repime
+# Acesse a pasta dos binários do kafka e inicie os servidores pelo terminal
+# Zookeeper server
+$ zookeeper-server-start.sh config/zookeeper.properties
 
-# Instale as dependências
-$ flutter pub get
-
-# Instâncie as versões para Windows/Linux com Flutter
-$ flutter create .
-
-# Execute a aplicação
-$ flutter run
-
-# O Flutter irá sugerir a plataforma no qual será executada a aplicação
+# Kafka broker
+$ kafka-server-start.sh config/server.properties
 
 ```
 
-Se quiser rodar a aplicação mobile em modo de debuggação é necessário habilitar a depuração no Android, conectar o aparelho com cabo USB e usar o Run and Debug do VSCode. 
-
 ---
 ## Tecnologias :technologist:
-    O ponto de início deste projeto foi uma aplicação Flutter, as dependências utilizadas estão presentes no pubspec.yaml. 
+    O ponto de início deste projeto foi uma aplicação Java, as dependências utilizadas estão presentes no pom.xml 
 ---
 Aplicação:
 
-    -> Flutter
-    - easy_refresh: ^3.0.5
+    -> Java
+    - org.projectlombok: lombok ^1.18.26
+    - org.apache.kafka: kafka-clients ^2.6.3
+    - org.slf4j: slf4j-simple ^1.7.29
+    - com.google.code.gson: gson ^2.10.1
 ---
 Utilitários:
 
     -> Dev
-    - Visual Studio Code 1.73
-    - Android Studio Dolphin 2021.3.1
-    - Figma
+    - Intellij IDEA Ultimate
+    - Binary Kafka
 ---  
 
 ## Contribuidores
